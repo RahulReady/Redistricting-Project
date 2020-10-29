@@ -1,0 +1,21 @@
+#################
+# General stuff #
+#################
+
+# OS X settings
+*.DS_Store
+
+# Jupyter Notebook temporary files
+*.ipynb_checkpoints
+
+# Python pre-compiled files
+**/__pycache__/**
+*.cpython
+*.pyc
+
+# Icons on OSX
+*Icon^M
+
+#####################
+# Project dependent #
+#####################
