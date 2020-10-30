@@ -22,8 +22,10 @@ dependencies:
   - cligj=0.7.0=py_0
   - colorama=0.4.4=pyh9f0ad1d_0
   - curl=7.71.1=h4b64cdc_8
+  - cycler=0.10.0=py_2
   - decorator=4.4.2=py_0
   - defusedxml=0.6.0=py_0
+  - descartes=1.1.0=py_4
   - entrypoints=0.3=py38h32f6830_1002
   - expat=2.2.9=h33f27b4_2
   - fiona=1.8.17=py38hcb65fe8_1
@@ -80,6 +82,7 @@ dependencies:
   - m2w64-gmp=6.1.0=2
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markupsafe=1.1.1=py38hab1e662_2
+  - matplotlib-base=3.3.2=py38h6584adb_1
   - mistune=0.8.4=py38h1e8a9f7_1002
   - mkl=2020.2=256
   - msys2-conda-epoch=20160418=1
@@ -92,6 +95,7 @@ dependencies:
   - nodejs=14.14.0=0
   - notebook=6.1.4=py38h32f6830_1
   - numpy=1.19.2=py38hdf1ac2f_1
+  - olefile=0.46=pyh9f0ad1d_1
   - openjpeg=2.3.1=h57dd2e7_3
   - openssl=1.1.1h=he774522_0
   - packaging=20.4=pyh9f0ad1d_0
@@ -101,6 +105,7 @@ dependencies:
   - parso=0.7.1=pyh9f0ad1d_0
   - pcre=8.44=ha925a31_0
   - pickleshare=0.7.5=py_1003
+  - pillow=8.0.1=py38h7011068_0
   - pip=20.2.4=py_0
   - pixman=0.38.0=hfa6e2cd_1003
   - poppler=0.89.0=h5d62644_1
@@ -147,14 +152,19 @@ dependencies:
   - zlib=1.2.11=h62dcd97_1010
   - zstd=1.4.5=h1f3a1b7_2
   - pip:
-    - cycler==0.10.0
     - ipywidgets==7.5.1
+    - joblib==0.17.0
     - kiwisolver==1.2.0
-    - matplotlib==3.3.2
     - maup==0.7
-    - pillow==8.0.1
+    - nltk==3.5
+    - patsy==0.5.1
+    - regex==2020.10.28
     - scipy==1.5.3
+    - seaborn==0.11.0
+    - statsmodels==0.12.0
     - tqdm==4.51.0
     - widgetsnbextension==3.5.1
+    - wordcloud==1.8.0
+    - xlrd==1.2.0
 prefix: C:\Users\HONGW\anaconda3\envs\gerrychain
 
