@@ -4,6 +4,7 @@
 
 # OS X settings
 *.DS_Store
+*.icloud
 
 # Jupyter Notebook temporary files
 *.ipynb_checkpoints
