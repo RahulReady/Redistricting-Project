@@ -20,3 +20,5 @@
 #####################
 # Project dependent #
 #####################
+# Ignore venv named gerryEnv
+/gerryEnv/*
